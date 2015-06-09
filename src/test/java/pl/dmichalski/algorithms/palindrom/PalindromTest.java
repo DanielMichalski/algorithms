@@ -20,7 +20,5 @@ public class PalindromTest {
         Assert.assertFalse(palindrom.isPalindrom("LasdsfsL"));
         Assert.assertFalse(palindrom.isPalindrom("MoJa"));
         Assert.assertFalse(palindrom.isPalindrom("JaceKe"));
-
-
     }
 }

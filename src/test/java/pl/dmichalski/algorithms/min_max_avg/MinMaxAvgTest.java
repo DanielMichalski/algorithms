@@ -20,7 +20,6 @@ public class MinMaxAvgTest {
         int[] numbers = {1, 2, 3, 4, 5};
 
         Assert.assertEquals(5, minMaxAvg.max(numbers));
-
     }
 
     @Test
@@ -29,6 +28,5 @@ public class MinMaxAvgTest {
         int[] numbers = {1, 2, 3, 4, 5};
 
         Assert.assertEquals(3, minMaxAvg.avg(numbers), 0);
-
     }
 }
